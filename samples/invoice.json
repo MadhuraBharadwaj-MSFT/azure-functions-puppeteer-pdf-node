@@ -1,0 +1,17 @@
+{
+  "invoiceNumber": "INV-2026-0042",
+  "customerName": "Contoso Coffee Company",
+  "lineItems": [
+    {
+      "description": "Accessibility review",
+      "quantity": 2,
+      "unitPrice": 125
+    },
+    {
+      "description": "PDF hosting setup",
+      "quantity": 1,
+      "unitPrice": 49.5
+    }
+  ],
+  "notes": "Thank you for your business. Payment is due within 30 days."
+}

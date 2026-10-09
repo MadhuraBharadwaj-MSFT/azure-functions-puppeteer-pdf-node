@@ -1,0 +1,12 @@
+.azure
+.git
+.gitignore
+.vscode
+infra
+node_modules
+samples
+scripts
+test
+*.md
+local.settings.json
+npm-debug.log

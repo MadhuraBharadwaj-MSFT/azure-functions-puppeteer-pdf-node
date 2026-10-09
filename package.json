@@ -1,0 +1,19 @@
+{
+  "name": "puppeteer-invoice-functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational Azure Functions custom-container demo that renders validated invoices to PDF.",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "node --test",
+    "test:smoke": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/smoke-test.ps1"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "dependencies": {
+    "@azure/functions": "4.16.5",
+    "puppeteer-core": "25.12.0"
+  }
+}
